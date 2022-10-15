@@ -1,0 +1,32 @@
+.home{
+    width: 100%;
+}
+.home-page{
+    background-color: rgb(247, 133, 196);
+    padding: 5rem 0;
+    height: 100vh;
+}
+.home-cont{
+    align-items: center;
+}
+.flexitem{
+    background-color: blue;
+}
+.flexitem h6{
+    font-size: 1rem;
+    padding-bottom:1rem ;
+}
+.flexitem h2{
+    font-size: 2.5rem;
+}
+.flexitem h4{
+    font-size: 1.5rem;
+}
+.flexitem p{
+    color: gray;
+}
+.home-btn{
+    background-color: orangered;
+    color: #fff;
+    
+}
