@@ -1,16 +1,44 @@
+*{
+    box-sizing: border-box;
+}
 .home{
-    width: 100%;
+    position: relative;
+}
+.flexitem{
+    padding: 160px 0;
 }
 .home-page{
-    background-color: rgb(247, 133, 196);
-    padding: 5rem 0;
-    height: 100vh;
+    /* background-color: rgb(247, 133, 196); */
 }
 .home-cont{
     align-items: center;
 }
-.flexitem{
-    background-color: blue;
+.imgcont1{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50%;
+    border: solid 5px #ea4020;
+    transform: translateY(-50%);
+    border-right: 0;
+    height: 380px;
+    border-top-left-radius: 190px;
+    border-bottom-left-radius: 190px;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 20px 30px;
+}
+.imgcont2{
+    border: solid 5px #000;
+    border-top-left-radius: 160px;
+    border-bottom-left-radius: 160px;
+    border-top-right-radius: 160px;
+    overflow: hidden;
+}
+.imgcont2 img{
+    width: auto;
+    height: 300px;
+    display: block;
 }
 .flexitem h6{
     font-size: 1rem;
@@ -28,5 +56,70 @@
 .home-btn{
     background-color: orangered;
     color: #fff;
-    
+    border: orangered;
+    border-radius: 5px;   
+}
+.home-social{
+    position: absolute;
+    width: 5%;
+    top: 50%;
+    left: 103%;
+}
+.home-soc-icons{
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.home-icon-cont{
+    background-color: rgba(212, 209, 209, 0.897);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* About Me */
+
+.about{
+    background-color: rgba(232, 249, 246, 0.69)
+}
+
+.about-head{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 400;
+    border-left: 3px solid red;
+    margin-bottom: 1.5rem;
+}
+.about-color{
+    color: gray;
+    font-size: 0.9rem;
+    line-height: 1.2;
+}
+.about-under{
+    text-decoration-color:rgb(177, 165, 165) ;
+    text-decoration-thickness: 2px;
+}
+.about-elip-flex{
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.about-elip{
+    background-color: #fff;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+}
+.about-process{
+    gap: 3%;
+}
+.about-pro-cont{
+    width: 23%;
+}
+.about-pro-round{
+    display: inline-block;
+    padding: 1rem 1rem;
+    background-color: orangered;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    color: #fff;
 }
